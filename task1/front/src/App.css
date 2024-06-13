@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Proxima Nova reg";
+  src:
+    url("/src/assets/fonts/ProximaNova-Regular.woff2") format("woff2"),
+}
+
+@font-face {
+  font-family: "Proxima Nova light";
+  src:
+    url("/src/assets/fonts/ProximaNova-Light.woff2") format("woff2"),
+}
+
+
+.userList{
+  width: 97vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+
+.userCard{
+  width: 357px;
+  height: 314px;
+  border: 0.5px solid rgb(221, 211, 211);
+  border-radius: 16px;
+  padding: 24px;
+  gap: 24px;
+  background-color: #ffff;
+  box-shadow: 1px 1px 1px 1px rgba(199, 197, 197, 0.493)
+}
+
+.userCard:hover{
+  cursor: pointer;
+}
+
+.userCardName{
+  font-family: "Proxima Nova reg";
+  font-size: 24px;
+  width: 100%;
+}
+
+.cardData{
+  font-family: "Proxima Nova light" ;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.userCardImg{
+  margin-right: 10px;
+}
+
+.modalHeader{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.modalName{
+  width: 392px;
+  font-family: "Proxima Nova reg";
+  font-size: 24px;
+  margin-bottom: 10%;
+}
+
+.modalClose{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 100%;
+  height: 20px;
+}
+
+.modalClose:hover{
+  cursor: pointer;
+}
+
+.modalBasicData{
+  display: flex;
+  gap: 40px;
+}
+
+.modalBasicDataHeaders{
+  width: 137px;
+  height: 176px;
+  gap: 14px;
+}
+
+.modalBasicDataHeaderP{
+  width: 98px;
+  height: 24px;
+  gap:14px;
+  font-family:"Proxima Nova reg";
+}
+
+.modalBasicDataData{
+  width: 395px;
+  height: 188px;
+  font-family:"Proxima Nova light" ;
+  font-size: 16px;
+}
+
+.AdditionalData{
+  gap:12px;
+  margin-top: 75px;
+}
+
+.AdditionalDataHeader{
+  font-size: 18px;
+  font-family:"Proxima Nova reg";
+}
+
+.AdditionalDataData{
+  font-size: 16px;
+  font-family:"Proxima Nova light";
+}
+
+.searchMainWrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.searchWrapper{
+  width: 87vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid #D4DEFE;
+  border-radius: 24px;
+  align-items: center;
+}
+
+.searchInput{
+  width: 97%;
+  border: none;
+}
+
+.searchInputIcon{
+  color: #432EAB;
+  width: 19px;
+  height: 19px;
+}
+
+.searchInputIcon:hover{
+  cursor: pointer;
+}
